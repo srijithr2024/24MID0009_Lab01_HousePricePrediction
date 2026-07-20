@@ -47,3 +47,47 @@ The notebook generates:
 - Cross-validation results
 - Hyperparameter tuning results
 - Final trained model (.joblib)
+
+## for retraining the Models followings are required
+### Step 1: Install the required packages
+
+pip install -r requirements.txt 
+
+
+### Step 2:the above are the datasets i used for trianing model
+
+- Ames Housing datset
+- California Housing dataset
+
+### Step 3:For Retraining the above models
+
+#### Using the Python script
+
+
+python 24MID0009_Lab01_HousePrice.py
+
+or
+
+py 24MID0009_Lab01_HousePrice.py
+
+
+#### Using Jupyter Notebook
+
+jupyter notebook 24MID0009_Lab01_HousePrice.ipynb
+
+
+Then select:
+
+**Kernel(in the top) click Restart and wait fr the kernal to restart after a succesfful restart click Run All**
+
+### Expected Output
+
+Running the script/notebook will:
+
+- Load both datasets
+- Perform preprocessing
+- Train all regression models
+- Perform cross-validation
+- Perform GridSearchCV hyperparameter tuning
+- Generate evaluation metrics and its corrsponding plots
+- Save the trained model(s) as .joblib files
